@@ -1,0 +1,10 @@
+
+
+how to run the page:
+
+in your Terminal use this command : node server.js
+
+as soon as you run it you will see a private key displayed on the page along with the function "deposit"
+
+CardFi.sol - solidity code
+

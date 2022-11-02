@@ -1,0 +1,24 @@
+{
+  "name": "Register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "smart contracts",
+    "ethereum",
+    "rsk",
+    "web3"
+  ],
+  "author": "Solange Gueiros <solangegueiros@gmail.com> (https://solange.dev)",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.7.1",
+    "express": "^4.17.1",
+    "server.js": "^1.0.0",
+    "web3": "^1.8.0"
+  }
+}

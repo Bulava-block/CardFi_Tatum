@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Register information at Blockchain</title>
+
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+       ></script>  
+    <script  src="./index2.js"></script>    
+    
+  </head>
+
+  <body class="container">
+
+
+    <div class="row">
+      <div>
+        <h3 class="sub-header">deposit()</h3>
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <table>
+              <tr>
+                
+                <td>
+                  <input class="form-control" value="0xdb3183e5C02A24f5d88816bCA9a5aF9f7E73771E" id="ERC721">
+                </td>      
+                
+                <td>
+                  <input class="form-control" value="796952165907169300" id="idOfCard">
+                </td> 
+                
+                <td>
+                  <input class="form-control" value="1000" id="amountOF">
+                </td>    
+                <td>
+                  <input class="form-control" value="0xFf1c5b5Aa6362B8804BeD047163Ebe1a9B125869" id="currencyOF">
+                </td>                                
+              </tr>
+            </table>
+          </div>
+          <a href="#" onclick="depositJS()" class="btn btn-primary">Ok</a>
+          <p id="sendTok"></p>
+        </form>
+      </div>
+    </div>    
+
+     <h3>private key: 5cb37d41a2a3a191460d9a501130619446606c2bd0c715933b8af3cc769e1aa6</h3>
+
+  </body>
+</html>
